@@ -3,12 +3,12 @@
 ## 📌 Project Overview
 I built this project to figure out exactly why customers are leaving this telecom company. By analyzing customer behavior patterns, my goal was to pinpoint the specific pain points driving churn so the business can take proactive steps to improve customer retention.
 
-The final project connects a custom MySQL backend to an interactive two-page Power BI dashboard.
+The final project connects a custom MySQL backend to an interactive two page Power BI dashboard.
 
 ---
 
 ## 🎯 The Core Questions I Explored
-Instead of just looking at the surface-level numbers, I used data to answer a few specific business questions:
+Instead of just looking at the surface level numbers, I used data to answer a few specific business questions:
 - Which customer profiles face the highest risk of leaving?
 - How do contract types and payment methods influence a customer's decision to stay?
 - At what point in the customer lifecycle (tenure) does churn usually happen?
@@ -54,8 +54,8 @@ This page shifts focus toward the financial impact of lost accounts and highligh
 - Average Monthly Bill (Churned Users): $74.44/month
 
 ### Core Insights
-- The Contract Trap: Customers on Month-to-Month contracts are overwhelmingly the most likely to drop the service. Longer-term contracts (1 and 2 years) show highly stable revenue retention.
-- The Onboarding Window: The first 0 to 6 months are highly critical. Accounts with high monthly bills paired with low tenure form our absolute highest-risk group.
+- The Contract Trap: Customers on Month to Month contracts are overwhelmingly the most likely to drop the service. Longer term contracts (1 and 2 years) show highly stable revenue retention.
+- The Onboarding Window: The first 0 to 6 months are highly critical. Accounts with high monthly bills paired with low tenure form our absolute highest risk group.
 - Payment Methods: Users utilizing manual electronic checks churned at notably higher frequencies than those utilizing automated billing features.
 
 ---
@@ -105,4 +105,33 @@ SELECT
     ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS Churn_Rate_Pct
 FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
 GROUP BY InternetService;
+```
+## 📈 What the Dashboard Tracks
+I built this dashboard to slice and dice the data across a few key areas:
+* The Big Picture: Keeping a close eye on our overall churn rate and total revenue loss.
+* Customer Longevity: Tracking how tenure impacts a customer's likelihood to leave (identifying the "danger zone" months).
+* Contract & Billing Choices: Analyzing how month-to-month contracts vs. annual contracts, or payment methods like electronic checks, tie into customer retention.
+* Product Performance: Looking at churn patterns across different internet services (like Fiber Optic vs. DSL)
 
+## 🧠 Customer Risk Levels
+To make the data actionable, I categorized customers into three basic risk buckets:
+
+* 🟢 Low Risk: Loyal, long-term customers, usually locked into stable 1 or 2-year contracts.
+* 🟡 Medium Risk: Moderate tenure with a mix of different service add-ons; standard retention risk.
+* 🔴 High Risk: The biggest concern—typically new customers on month-to-month plans with high monthly bills.
+
+---
+
+## 💡 What the Data Suggests (Business Takeaways)
+Based on the trends in the data, here are the core strategies I’d recommend to improve retention:
+
+* Push for Contract Upgrades: Create targeted incentives or small discounts to transition month-to-month users into longer-term contracts.
+* Audit the Fiber Optic Experience: The data shows high churn among fiber optic users, indicating potential issues with service quality, setup, or pricing that need to be addressed.
+* Focus on the Onboarding Window: Double down on customer support and engagement during the critical first 3 to 6 months of a user's lifecycle.
+* Encourage Auto-Pay: Promote automated billing options, as manual electronic checks show a much higher correlation with churn.
+* Drive Value with Bundles: Introduce low-cost, high-value add-ons (like tech support or device security) to increase customer stickiness.
+
+---
+
+## 🎯 Conclusion
+Ultimately, this project is about moving past raw numbers and turning telecom data into clear, strategic ideas that a business can actually use to keep its customers happy and cut down on revenue loss.
