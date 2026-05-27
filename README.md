@@ -77,6 +77,8 @@ FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
 GROUP BY customerID
 HAVING COUNT(*) > 1;
 ```
+### 2. Churn Trend Analysis
+```sql
 -- Calculating churn rates across different contract types
 SELECT 
     Contract, 
