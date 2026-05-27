@@ -87,6 +87,7 @@ SELECT customerID, COUNT(*)
 FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
 GROUP BY customerID
 HAVING COUNT(*) > 1;
+```
 ## 2. Churn Trend Analysis
 -- Churn rate by contract type
 SELECT 
