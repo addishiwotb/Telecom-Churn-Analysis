@@ -34,7 +34,8 @@ I designed a two-page dashboard focused on readability and usability. I also rem
 
 This page provides a general overview of customer activity and business performance.
 
-<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/9632fe3c-66b5-48f5-8140-4f6cd05848c1" />
+<img width="1012" height="571" alt="image" src="https://github.com/user-attachments/assets/75bd113a-ae20-43de-833e-645ffdc4ee7c" />
+
 
 
 ### Key Metrics
