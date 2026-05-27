@@ -13,7 +13,7 @@ I first stored the telecom dataset in MySQL and used SQL queries to:
 - Check for duplicates
 - Identify missing or blank values
 - Validate customer records
-- Explore churn-related trends
+- Explore churn related trends
 
 This step helped ensure the dataset was clean before building the dashboard.
 
@@ -24,7 +24,7 @@ After connecting MySQL to Power BI, I used Power Query to:
 - Prepare the dataset for reporting and visualization
 
 ### 3. Dashboard Development (Power BI)
-I designed a two-page dashboard focused on readability and usability. I also removed unnecessary labels and legends to keep the visuals cleaner and easier to scan.
+I designed a two page dashboard focused on readability and usability. I also removed unnecessary labels and legends to keep the visuals cleaner and easier to scan.
 
 ---
 
@@ -63,8 +63,8 @@ This page focuses on the financial impact of customer churn and revenue risk.
 - Average Monthly Charges of Churned Customers: $74.44/month
 
 ### Main Insights
-- Month-to-Month contracts had the highest churn levels.
-- Customers with high monthly charges and low tenure formed a high-risk churn group.
+- Month to Month contracts had the highest churn levels.
+- Customers with high monthly charges and low tenure formed a high risk churn group.
 - Longer contract terms showed more stable revenue patterns.
 
 The scatter plot helped identify customers who leave early despite having relatively high monthly payments.
