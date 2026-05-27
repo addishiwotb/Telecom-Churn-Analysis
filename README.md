@@ -116,20 +116,20 @@ I built this dashboard to slice and dice the data across a few key areas:
 ## 🧠 Customer Risk Levels
 To make the data actionable, I categorized customers into three basic risk buckets:
 
-* 🟢 Low Risk: Loyal, long-term customers, usually locked into stable 1 or 2-year contracts.
-* 🟡 Medium Risk: Moderate tenure with a mix of different service add-ons; standard retention risk.
-* 🔴 High Risk: The biggest concern—typically new customers on month-to-month plans with high monthly bills.
+* 🟢 Low Risk: Loyal, long term customers, usually locked into stable 1 or 2 year contracts.
+* 🟡 Medium Risk: Moderate tenure with a mix of different service add ons; standard retention risk.
+* 🔴 High Risk: The biggest concern typically new customers on month to month plans with high monthly bills.
 
 ---
 
 ## 💡 What the Data Suggests (Business Takeaways)
 Based on the trends in the data, here are the core strategies I’d recommend to improve retention:
 
-* Push for Contract Upgrades: Create targeted incentives or small discounts to transition month-to-month users into longer-term contracts.
+* Push for Contract Upgrades: Create targeted incentives or small discounts to transition month to month users into longer term contracts.
 * Audit the Fiber Optic Experience: The data shows high churn among fiber optic users, indicating potential issues with service quality, setup, or pricing that need to be addressed.
 * Focus on the Onboarding Window: Double down on customer support and engagement during the critical first 3 to 6 months of a user's lifecycle.
-* Encourage Auto-Pay: Promote automated billing options, as manual electronic checks show a much higher correlation with churn.
-* Drive Value with Bundles: Introduce low-cost, high-value add-ons (like tech support or device security) to increase customer stickiness.
+* Encourage Auto Pay: Promote automated billing options, as manual electronic checks show a much higher correlation with churn.
+* Drive Value with Bundles: Introduce low-cost, high-value add ons (like tech support or device security) to increase customer stickiness.
 
 ---
 
