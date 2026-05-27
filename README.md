@@ -117,3 +117,17 @@ SELECT
     ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS Churn_Rate_Pct
 FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
 GROUP BY InternetService;
+```
+## 🚀 Project Files & Setup
+
+### 📊 Files
+- Dataset: [WA_Fn-UseC_-Telco-Customer-Churn.csv](WA_Fn-UseC_-Telco-Customer-Churn.csv)
+- Power BI Dashboard: [Telecom Customer Churn Analysis.pbit](Telecom%20customer%20Churn%20Analysis.pbit)
+
+### 🛠️ Running the Project
+
+1. Clone this repository.
+2. Open the .pbit file in Power BI Desktop.
+3. Import the .csv dataset into MySQL if you want to run the SQL queries locally.
+
+
