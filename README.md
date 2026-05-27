@@ -34,7 +34,7 @@ I designed a two-page dashboard focused on readability and usability. I also rem
 
 This page provides a general overview of customer activity and business performance.
 
-(<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/9632fe3c-66b5-48f5-8140-4f6cd05848c1" />)
+<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/9632fe3c-66b5-48f5-8140-4f6cd05848c1" />
 
 
 ### Key Metrics
@@ -55,7 +55,7 @@ I used funnel charts and distribution visuals to make churn patterns easier to c
 
 This page focuses on the financial impact of customer churn and revenue risk.
 
-(<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/8a9e5103-8a8b-4313-9939-6e9934779c94" />)
+<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/8a9e5103-8a8b-4313-9939-6e9934779c94" />
 
 ### Key Metrics
 - Average Customer Tenure: 32.37 months
