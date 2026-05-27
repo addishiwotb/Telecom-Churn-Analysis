@@ -73,6 +73,7 @@ The scatter plot helped identify customers who leave early despite having relati
 
 # 💻 SQL Exploratory Data Analysis
 
+
 Below are some of the SQL queries used during the initial data auditing process and risk trend analysis.
 
 ## 1. Data Quality Checks
@@ -89,6 +90,7 @@ GROUP BY customerID
 HAVING COUNT(*) > 1;
 ```
 ## 2. Churn Trend Analysis
+```sql
 -- Churn rate by contract type
 SELECT 
     Contract, 
