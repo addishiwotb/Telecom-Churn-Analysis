@@ -76,4 +76,31 @@ SELECT customerID, COUNT(*)
 FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
 GROUP BY customerID
 HAVING COUNT(*) > 1;
+```
+-- Calculating churn rates across different contract types
+SELECT 
+    Contract, 
+    COUNT(*) AS Total_Customers,
+    SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) AS Churned_Customers,
+    ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS Churn_Rate_Pct
+FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
+GROUP BY Contract;
+
+-- Comparing monthly billing metrics between churned and active customers
+SELECT 
+    Churn, 
+    COUNT(*) AS Customer_Count,
+    ROUND(SUM(MonthlyCharges), 2) AS Total_Monthly_Revenue,
+    ROUND(AVG(MonthlyCharges), 2) AS Avg_Monthly_Bill
+FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
+GROUP BY Churn;
+
+-- Analyzing churn percentages across internet service categories
+SELECT 
+    InternetService, 
+    COUNT(*) AS Total_Customers,
+    SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) AS Churned_Customers,
+    ROUND(100.0 * SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS Churn_Rate_Pct
+FROM telecom_churn.`wa_fn-usec_-telco-customer-churn - copy`
+GROUP BY InternetService;
 
