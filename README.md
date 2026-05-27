@@ -29,7 +29,8 @@ Instead of just looking at the surface-level numbers, I used data to answer a fe
 ## 1. Executive Overview
 This page provides a general overview of customer activity, service preferences, and overall business performance metrics.
 
-![Executive Overview Dashboard](page1.png)
+<img width="1012" height="571" alt="image" src="https://github.com/user-attachments/assets/75bd113a-ae20-43de-833e-645ffdc4ee7c" />
+
 
 ### Key Metrics & Visual Highlights
 - Total Customers: 7.04K
@@ -46,7 +47,7 @@ This page provides a general overview of customer activity, service preferences,
 ## 2. Financial Risk Analysis
 This page shifts focus toward the financial impact of lost accounts and highlights where current recurring revenue is most exposed to risk.
 
-![Financial Risk Dashboard](page2.png)
+<img width="1014" height="568" alt="image" src="https://github.com/user-attachments/assets/8a9e5103-8a8b-4313-9939-6e9934779c94" />
 
 ### Key Metrics & Visual Highlights
 - Average Customer Tenure: 32.37 months
