@@ -110,7 +110,7 @@ GROUP BY InternetService;
 I built this dashboard to slice and dice the data across a few key areas:
 * The Big Picture: Keeping a close eye on our overall churn rate and total revenue loss.
 * Customer Longevity: Tracking how tenure impacts a customer's likelihood to leave (identifying the "danger zone" months).
-* Contract & Billing Choices: Analyzing how month-to-month contracts vs. annual contracts, or payment methods like electronic checks, tie into customer retention.
+* Contract & Billing Choices: Analyzing how month to month contracts vs. annual contracts, or payment methods like electronic checks, tie into customer retention.
 * Product Performance: Looking at churn patterns across different internet services (like Fiber Optic vs. DSL)
 
 ## 🧠 Customer Risk Levels
@@ -129,7 +129,7 @@ Based on the trends in the data, here are the core strategies I’d recommend to
 * Audit the Fiber Optic Experience: The data shows high churn among fiber optic users, indicating potential issues with service quality, setup, or pricing that need to be addressed.
 * Focus on the Onboarding Window: Double down on customer support and engagement during the critical first 3 to 6 months of a user's lifecycle.
 * Encourage Auto Pay: Promote automated billing options, as manual electronic checks show a much higher correlation with churn.
-* Drive Value with Bundles: Introduce low-cost, high-value add ons (like tech support or device security) to increase customer stickiness.
+* Drive Value with Bundles: Introduce low cost, high value add ons (like tech support or device security) to increase customer stickiness.
 
 ---
 
